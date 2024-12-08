@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Lato";
+}
+body{
+  scroll-behavior: smooth;
+}
+img{
+  display:block;
+  max-width: 100%;
+}
+.header{
+  background-color:#222222;  
+}
+.container-top{
+  max-width: 1600px;
+  margin: 0 auto;
+
+  
+  /* display: flex; */
+  
+
+}
+
+.header-navigation{
+  max-width: 1140px;
+  display: flex;
+  /* flex-wrap: wrap;
+  align-content: center; */
+  justify-content: space-between;
+}
+.header button{
+  background-color: #222222;
+}
+.header-navigation-buttonLeft{
+  display: flex;
+  align-items: center;
+  gap: 85px;
+}
+.header-navigation-buttonLeft{
+  padding-left: 230px;
+}
+.header-navigation-buttonRing{
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.main{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+}
+.mainContrnt-Baner{
+  background: rgb(241, 228, 230);
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.Baner-img{
+  padding-left: 230px;
+}
+.Baner-text{
+  border-left: 12px solid #F16D7F;
+  padding-left: 16px;
+  
+}
+.Baner-text h1{
+  font-weight: 900;
+  font-size: 48px;
+  text-align: left;
+}
+.Baner-text h3{
+font-size: 32px;
+font-weight: 700;
+text-align: left;
+display: inline;
+}
+.red{
+  color: #F16D7F;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.main-Top{
+  max-width: 1140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* padding-left: 230px; */
+  padding-top: 65px;
+  gap: 30px;
+  /* position: relative; */
+}
+.main-Top-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 260px;
+}
+
+
+.div2{
+  width: 100%;
+  height: 100%;
+  background-color: #615959;
+}
+/* .main-Top-item h2{
+  /* position: absolute; 
+/} */
+.item-text{
+  display: block;
+  text-align: center;
+}
+.item-text-top{
+font-size: 16px;
+font-weight: 400;
+color: #FFFFFF;
+}
+.item-text-down{
+  font-size: 24px;
+  font-weight: 700;
+  color: #F16D7F;
+}
+
+.item-img1{
+  background-image: url(./img/LayerTop1.png) ;
+}
+.item-img2{
+  background-image: url(./img/LayerTop2.png) ;
+}
+.item-img3{
+  background-image: url(./img/LayerTop3.png) ;
+}
+.item-img4{
+  background-image: url(./img/LayerTop4.png) ;
+  width: 1140px;
+  height: 180px;
+}
+.main-Top-item-collor{
+  background-color: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+}
+.main-Top-item-text{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-down{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 96px;
+}
+
+.main-down-title{
+  padding-bottom: 48px;
+}
+.main-down{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1140px;
+    gap: 30px;
+}
+.main-down-photo{
+  max-width: 360px;
+  /* padding-top: 48px; */
+}
+.main-down-title-textTop{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+
+}
+.main-down-title-textDown{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+color: rgb(159, 159, 159);
+}
+
+.main-down-text-collor{
+  background-color: #F8F8F8;
+  display: flex;
+  height: 161px;
+  align-items: center;
+  justify-content: center
+}
+.main-down-photoTextTop{
+display: block;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+color: rgb(0, 0, 0);
+}
+.main-down-photoTextMidde{
+  padding-top: 13px;
+display: block;
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
+text-align: left;
+color: rgb(93, 93, 93);
+}
+.main-down-photoTextDown{
+  padding-top: 18px;
+  display: block;
+  font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+text-align: left;
+color: rgb(241, 109, 127);
+}
+.main-down-photoText{
+  max-width: 315px;
+}
+.footer{
+  
+}
+.footer-nav{
+max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+  padding-bottom: 60px;
+}
+.footer-nav-button{
+  width: 212px;
+  height: 48px;
+  color: rgb(242, 99, 118);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+border: 1px solid rgb(255, 106, 106);
+}
+.content-down-two{
+  display: flex;
+    justify-content: center
+}
